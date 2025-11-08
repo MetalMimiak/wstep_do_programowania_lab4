@@ -1,7 +1,8 @@
-imiona = ["Ala", "Ewa", "Kuba", "Oliwia"]
+imiona = ["Ala", "Oliwia", "Kuba", "Ewa"]
 
 #a.
-print(sorted(imiona))
+imiona.sort()
+print(imiona)
 
 #b.
 imiona.append("Magdalena")
